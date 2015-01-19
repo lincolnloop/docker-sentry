@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-ENV SENTRY_VERSION=7.1.1
+ENV SENTRY_VERSION 7.1.1
 
 RUN apt-get update -q && apt-get install -y \
     python python-dev python-pip \
